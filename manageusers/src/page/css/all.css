@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root {
+    --nav:#333;
+    --nav1:#1A1A1A;
+    --nav2:#101010;
+    --background1:#000000;
+    --background2:url(https://siddharthpetro.com/wp-content/uploads/2019/09/Footer-Background-Image.png);
+    --background3:url(https://www.kidslifestudio.com/wp-content/uploads/footer-background.jpg);
+    --background4:linear-gradient( 35deg, #ccffff,#ffcccc);
+    --text1:white;
+    --text2:black;
+    --text3:greenyellow;
+    --text4:red;
+    --text5:skyblue;
+    --text6:#e91e63;
+    --colorDeco1:#3caae9;
+    --colorDeco2:yellowgreen;
+    --colorDeco3:#ffcccc;
+    --colorDeco4:#1877f2;
+    --colorDeco5:grey;
+    --colorDeco6:white;
+    --colorDeco7:black;
+    --colorDeco8:pink;
+    --colorDeco9:#e91e63;
+    --colorDeco10:red;
+}
+body {
+    overflow: hidden;
+    background-color: var(--background1);
+}
+#root {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.Home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: baseline;
+}
+.NavBarLeft {
+    width:20%;
+    height: 100%;
+}
+.ContainerRight {
+    width:80%;
+    height: 100%;
+}
+.ContentRight {
+    position: absolute;
+    top: 6%;
+    left: 22%;
+    width: 77%;
+    height: 90%;
+}

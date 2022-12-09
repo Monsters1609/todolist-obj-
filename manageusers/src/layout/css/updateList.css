@@ -1,0 +1,20 @@
+.UpdateList{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: var(--nav1);
+    border-radius: 10px;
+}
+.TitleUpdateUser{
+    text-align: center;
+    color: var(--text1);
+}
+#FormUpdate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text1);
+}
+#FormUpdate input {
+    width: 140px;
+}

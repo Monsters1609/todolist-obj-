@@ -1,0 +1,43 @@
+.List {
+    margin-top: 10px;
+    background-color: var(--nav1);
+    border-radius: 10px;
+    width: 100%;
+    height: 49.5%;
+    overflow: auto;
+}
+.TitleTableList{
+    text-align: center;
+    color: var(--text1);
+}
+.List table {
+    width: 96%;
+    height: 100%;
+    margin-left: 2%;
+}
+.Router{
+    text-decoration: none;
+    color: var(--text2);
+}
+.Router:hover{
+    color: var(--text2);
+}
+.List table, .List tr, .List th, .List td {
+    border: 1px var(--colorDeco6) solid;
+    border-collapse: collapse;
+    color: var(--text1);
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: none;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+    background: none;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--colorDeco6);
+    border-radius: 50px;
+  }
